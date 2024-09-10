@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">تطبيق التجارة الإلكترونية</string>
+    <string name="app_enter">تسجيل الدخول</string>
+    <string name="hint_mail">البريد الإلكتروني</string>
+    <string name="hint_pass">كلمة المرور</string>
+    <string name="app_no_account">ليس لديك حساب ؟</string>
+    <string name="app_create_account">إنشاء حساب</string>
+    <string name="admin_account">سجل كمسؤول</string>
+    <string name="livreur_account">سجل كموزع </string>
+
+    <string name="Prenom_user">الإسم الشخصي</string>
+    <string name="Nom_user">الإسم العائلي</string>
+    <string name="Pass_user">كلمة السر</string>
+    <string name="Confirm_pass">تأكيد كلمة السر</string>
+    <string name="Num_whatsapp">رقم هاتف الواتساب</string>
+    <string name="have_account">هل لديك حساب ؟</string>
+    <string name="city_livraison">مدينة التوصيل</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="commande_title">طلب منتوج</string>
+    <string name="qte">كميات</string>
+    <string name="ville_livr">مدينة التوصيل</string>
+    <string name="total">المجموع</string>
+    <string name="app_commade_prod">طلب المنتوج</string>
+    <string name="home_icon">الرئيسية</string>
+    <string name="commande_icon">إضافة مبيعة</string>
+    <string name="store_icon">شركات</string>
+
+    <string name="nameclient">إسم الزبون</string>
+    <string name="phoneclient">هاتف الزبون</string>
+    <string name="adresclient">عنوان الزبون</string>
+    <string name="motif">ملاحظة</string>
+    <string name="button_ok">حسنا</string>
+    <string name="list_entreprise">لائحة الشركات</string>
+    <string name="list_pr">لائحة المنتوجات</string>
+    <string name="title_list_com">مبيعات</string>
+    <string name="stat">الحالة</string>
+    <string name="all_com">جميع المبيعات</string>
+    <string name="all_entreprise">جميع الشركات</string>
+    <string name="last_commande">آخر المبيعات</string>
+    <string name="all_commandelist"><![CDATA[جميع المبيعات >]]></string>
+    <string name="nom_prod">إسم المنتوج</string>
+    <string name="nom_entreprise">إسم الشركة</string>
+    <string name="total_prod">المجموع</string>
+    <string name="label_bienvenue">مرحبا</string>
+    <string name="label_derniere_connexion_">آخر اتصال :</string>
+    <string name="notif">إشعارات</string>
+    <string name="date_notif">تاريخ الإشعار</string>
+    <string name="title_notif">عنوان الإشعار</string>
+    <string name="description_notif">وصف الإشعار</string>
+    <string name="forget_password">نسيت رقمك السري ؟</string>
+    <string name="title_forgot">إسترجاع كلمة السر</string>
+    <string name="description_forget">لإسترجاع كلمة السر، المرجو إدخال البريد الإلكتروني الذي أنشأت به حسابك</string>
+    <string name="profil">الملف الشخصي</string>
+    <string name="fullname">الاسم الكامل</string>
+    <string name="emal">عنوان البريد الإلكتروني</string>
+    <string name="whatsapp">رقم هاتف الواتساب</string>
+    <string name="nom_entreprise_new">إسم الشركة</string>
+    <string name="category_entre">الفئة</string>
+    <string name="hint_adresse_entr">عنوان الشركة</string>
+    <string name="ville_entreprise">مدينة الشركة</string>
+    <string name="btn_inscr_entre">سجل كصاحب شركة</string>
+    <string name="inscr_commer">سجل كمسوق </string>
+    <string name="button_ajouter_produit">+ إضافة منتج جديد</string>
+    <string name="list_produ">لائحة المنتجات</string>
+    <string name="add_prod">إضافة منتج</string>
+    <string name="qte_stock">الكميه في المخزن</string>
+    <string name="prix_unitaire">سعر الوحدة</string>
+    <string name="add_pictures">إضافة صورة للمنتوج</string>
+    <string name="iws">قائمة المنتجات التي سيتم تسليمها إلى:</string>
+    <string name="ic_home">الرئيسية</string>
+    <string name="new_hmiza">جديد الهميزات</string>
+    <string name="no_hmiza">لا توجد هناك هميزات</string>
+    <string name="nom_hmiza">إسم الهمزة</string>
+    <string name="prix_hmiza">تمن الهميزة</string>
+    <string name="descr_hmiza">وصف هميزة</string>
+    <string name="add_buy">إضافة إلى المشتريات</string>
+    <string name="btn_add_hmiza">+ إضافة هميزة</string>
+    <string name="title_add_hmiza">إضافة هميزة</string>
+    <string name="add_pc_hmiza">إضافة صورة الهميزة</string>
+    <string name="add_prod_btn">إضافة منتج</string>
+    <string name="commision">العمولة</string>
+    <string name="button_no">لا</string>
+    <string name="alert_confirm_delete_beneficiary">هل أنت متأكد أنك تريد حذف٪ s؟</string>
+    <string name="no_livreur">لا يوجد موزعين</string>
+    <string name="user_menu">المستخدمين</string>
+    <string name="alert_to_confirm_call_phone_number">هل أنت متأكد أنك تريد الاتصال بهذا الرقم؟</string>
+    <string name="reclamation">شكاوي</string>
+    <string name="claim_title">تحرير شكاية</string>
+    <string name="saisissez_votre_sujet">شكواك</string>
+    <string name="hint_sujet">موضوع الشكوى</string>
+    <string name="photo_claim">إضافة صورة للشكوى</string>
+    <string name="add_claim">إضافة شكوى</string>
+    <string name="type_paiement">الرجاء اختيار نوع الدفع الخاص بك</string>
+    <string name="paiement">طريقة الدفع</string>
+    <string name="app_name2">iflous</string>
+    <string name="downloadpic">تحميل الصورة الشخصية (بجودة)</string>
+    <string name="RIB">كتابة رقم الحساب البنكي</string>
+    <string name="pockets">محفظتي</string>
+    <string name="changepass">تغيير كلمة المرور</string>
+    <string name="textoldpass">كلمة المرور الحالي</string>
+    <string name="textnewpass">كلمة المرور الجديدة</string>
+    <string name="textconfirpass">تأكيد كلمة المرور الجديدة</string>
+    <string name="validate">حفظ</string>
+    <string name="alltotal">الرصيد الحالي</string>
+    <string name="retirer">سحب الرصيد</string>
+    <string name="historique">متابعة الحالة</string>
+    <string name="retirertext">إختيار وسيلة السحب</string>
+    <string name="gift">جوائز و هدايا</string>
+    <string name="historiqueretrait">تاريخ المعاملة</string>
+    <string name="validehisto">تأكيد</string>
+    <string name="list_hmiza">هميزاتي</string>
+    <string name="noCommande">ليس لديك أي أوامر للتسليم</string>
+
+
+    <string-array name="produit">
+        <item>Produit 1</item>
+        <item>Produit 2</item>
+        <item>Produit 3</item>
+        <item>Produit 4</item>
+    </string-array>
+
+    <string-array name="typepaye">
+        <item>Virement bancaire</item>
+        <item>Paiement sur place lors de livraison</item>
+        <item>paiement par carte</item>
+    </string-array>
+
+    <string-array name="statusCommande">
+        <item>في الانتظار</item>
+        <item>تم تأكيد الطلبية</item>
+        <item>تم الشحن بنجاح</item>
+        <item>الغيت</item>
+        <item>لايجيب</item>
+    </string-array>
+
+    <string-array name="Ville">
+        <item>إختر المدينة</item>
+        <item>الدارالبيضاء</item>
+        <item>الرباط</item>
+        <item>فاس</item>
+        <item>المحمدية</item>
+        <item>مكناس</item>
+        <item>مراكش</item>
+        <item>أكادير</item>
+        <item>طنجة</item>
+        <item>تطوان</item>
+        <item>الحسيمة</item>
+        <item>الجديدة</item>
+        <item>الصويرة</item>
+        <item>أسفي</item>
+        <item>القنيطرة</item>
+        <item>ورزازات</item>
+        <item>برشيد</item>
+        <item>العيون</item>
+        <item>الداخلة</item>
+        <item>بركان</item>
+        <item>وجدة</item>
+        <item>تمارة</item>
+        <item>الصخيرات</item>
+        <item>بوزيقة</item>
+        <item>سلا المدينة</item>
+        <item>سلا تابريكت</item>
+        <item>بوسكورة</item>
+        <item>عين السبع</item>
+        <item>سطات</item>
+        <item>بن جرير</item>
+        <item>شفشاون</item>
+        <item>تازة</item>
+        <item>سفرو</item>
+        <item>إفران</item>
+        <item>وزان</item>
+        <item>تارودانت</item>
+        <item>خريبكة</item>
+        <item>الخميسات</item>
+        <item>بني ملال</item>
+        <item>ناظور</item>
+        <item>أرفود</item>
+        <item>خنيفرة</item>
+        <item>العرائش</item>
+        <item>تافراوت</item>
+
+
+    </string-array>
+
+
+    <string-array name="bank">
+        <item> AL BARID BANK</item>
+        <item>CIH BANK</item>
+        <item>ATTIJARIWAFA BANK</item>
+        <item>BANQUE POPULAIRE</item>
+        <item>BMCI</item>
+        <item>BANK OF AFRICA</item>
+        <item>CREDIT AGRICOLE</item>
+        <item>CREDIT DU MAROC</item>
+        <item>SOCIÉTÉ GÉNÉRALE</item>
+        <item>CFG BANK</item>
+        <item>UMNIA BANK</item>
+        <item>BANK ASSAFA</item>
+        <item>BANK AL YOUSR</item>
+        <item>AL AKHDAR BANK</item>
+        <item>ARAB BANK</item>
+
+    </string-array>
+
+</resources>

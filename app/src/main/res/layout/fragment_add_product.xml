@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#262626"
+    tools:context=".Entreprise.Fragment.AddProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/btn_theme_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/btn_logout"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/btn_click_theme"
+            android:clickable="true"
+            android:onClick="logout"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/image" />
+
+
+        <Space
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="@dimen/_20sdp" />
+
+
+        <Space
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_menu" />
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_800sdp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_prod" />
+
+
+            <EditText
+                android:id="@+id/edt_nom_prod"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/rounded_border_edittext"
+                android:focusable="true"
+                android:hint="@string/nom_prod"
+                android:inputType="text"
+                android:layoutDirection="rtl"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:focusable="true"
+                android:paddingStart="10dp"
+                android:layout_margin="15dp"
+                android:id="@+id/edt_qte_stock"
+                android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                android:hint="@string/qte_stock"
+                android:layoutDirection="rtl"
+                android:inputType="number"
+                android:background="@drawable/rounded_border_edittext"
+                />
+
+            <EditText
+                android:focusable="true"
+                android:paddingStart="10dp"
+                android:layout_margin="15dp"
+                android:id="@+id/edt_qte_commision"
+                android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                android:hint="@string/commision"
+                android:layoutDirection="rtl"
+                android:inputType="number"
+                android:background="@drawable/rounded_border_edittext"
+                />
+
+            <EditText
+                android:focusable="true"
+                android:paddingStart="10dp"
+                android:layout_margin="15dp"
+                android:id="@+id/edt_prix_unitaire"
+                android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                android:hint="@string/prix_unitaire"
+                android:layoutDirection="rtl"
+                android:inputType="number"
+                android:background="@drawable/rounded_border_edittext"
+                />
+
+
+            <TextView
+
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_pictures" />
+
+            <ImageView
+                android:background="@drawable/rounded_border_edittext"
+                android:id="@+id/photo_prod"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/upload"
+                />
+
+            <Button
+
+                android:background="@drawable/btn_click_theme"
+                android:id="@+id/button"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                 android:layout_height="50dp"
+                android:text="@string/add_prod_btn"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

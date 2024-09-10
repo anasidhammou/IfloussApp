@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/transparent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onhomeCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/ic_home"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ic_home"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onMesComptesClickedCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/bell"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notif"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onpoketsClickedCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/wallet"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pockets"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="ongiftClickedCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/gift"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gift"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onProfilClickedCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/utilisateur"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profil"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:textSize="@dimen/_16sdp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/btn_menu_click_theme"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onWarningClickedCustomize"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp">
+
+            <ImageView
+
+                android:src="@drawable/warning"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_1sdp"
+                app:tint="@color/white" />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_1sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="التواصل مع الإدارة"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

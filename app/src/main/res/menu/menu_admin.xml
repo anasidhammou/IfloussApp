@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/list_commande"
+        android:icon="@drawable/ic_commande"
+        android:title="@string/title_list_com"
+        />
+
+
+    <item
+        android:id="@+id/livreurs"
+        android:icon="@drawable/livreur"
+        android:title="موزعين"
+        />
+
+    <item
+        android:id="@+id/entreprise"
+        android:icon="@drawable/ic_store"
+        android:title="@string/store_icon"
+        />
+
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_user"
+        android:title="@string/user_menu"
+        />
+
+    <item
+        android:id="@+id/claim"
+        android:icon="@drawable/warning"
+        android:title="@string/reclamation"
+        />
+
+
+
+
+
+
+
+</menu>

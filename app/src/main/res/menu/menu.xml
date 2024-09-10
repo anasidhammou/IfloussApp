@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dasshboard"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_icon"
+        />
+
+    <item
+        android:id="@+id/list_commande"
+        android:icon="@drawable/ic_commande"
+        android:title="@string/title_list_com"
+        />
+
+
+    <item
+    android:id="@+id/commande"
+    android:icon="@drawable/ic_add"
+    android:title="@string/commande_icon"
+    />
+
+
+
+
+
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/ic_store"
+        android:title="@string/store_icon"
+        />
+
+    <item
+        android:id="@+id/hmiza"
+        android:icon="@drawable/ic_hmiza"
+        android:title="هميزات"
+        />
+
+
+
+</menu>

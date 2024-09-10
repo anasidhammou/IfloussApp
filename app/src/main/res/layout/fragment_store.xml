@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.StoreFragment">
+
+    <LinearLayout
+
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/btn_theme_color"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/btn_logout"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/btn_click_theme"
+                android:clickable="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/image" />
+
+
+            <Space
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textSize="@dimen/_20sdp" />
+
+
+            <Space
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:adjustViewBounds="true"
+                android:clickable="false"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/ic_menu" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#262626"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/list_entreprise"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"/>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/list_pr"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+             android:id="@+id/noproduit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:text="لعرض المنتجات الرجاء الضغط على شركة"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:gravity="center"
+            android:textStyle="bold" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container_product"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_540sdp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_produit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

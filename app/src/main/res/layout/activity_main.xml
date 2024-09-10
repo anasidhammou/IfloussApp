@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_gravity="center"
+    android:background="#262626"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_enter" />
+
+    <EditText
+        android:importantForAutofill="no"
+        android:focusable="true"
+        android:paddingStart="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/hint_mail"
+        android:layoutDirection="rtl"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="@dimen/_10sdp"
+        android:background="@drawable/rounded_border_edittext"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layoutDirection="rtl"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:importantForAutofill="no"
+            android:background="@drawable/rounded_border_edittext"
+            android:layoutDirection="rtl"
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/hint_pass"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:layout_margin="20dp"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:visibility="gone"
+        android:id="@+id/check_Sesouvenirdemoi"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="-20dp"
+        android:paddingEnd="10dp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layoutDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تذكر اسم المستخدم الخاص بي"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:onClick="logiin"
+        android:background="@drawable/btn_click_theme"
+        android:id="@+id/button"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_height="60dp"
+        android:text="@string/app_enter"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/_29sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_no_account"
+            android:textColor="@color/btn_text"/>
+
+        <Space
+            android:layout_width="@dimen/_7sdp"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:onClick="goinscription"
+            android:textSize="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/btn_theme_color"
+            android:text="@string/app_create_account" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:onClick="goforget"
+            android:textSize="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/btn_theme_color"
+            android:text="@string/forget_password" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

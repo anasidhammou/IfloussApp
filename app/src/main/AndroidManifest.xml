@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.edulab.e_commerceapp">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_ecommeapp"
+        android:label="@string/app_name2"
+        android:roundIcon="@mipmap/ic_launcher_ecommeapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Entreprise.StatsEntrepriseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Entreprise.ClaimEntrepriseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Entreprise.PocketsEntrepriseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Entreprise.NotifEntrepriseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Entreprise.ProfilEntrepriseActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".listbuyproductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoriqueretraitActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".GiftActvity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PocketsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddpicsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RibActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ClaimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.modifycommande"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.PrincipalAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entreprise.HomeEntrepriseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entreprise.AjouterNouvelleHmizaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listbuyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Livreur.ListcommandepervilleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entreprise.AjouternouveauProduitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entreprise.GestionEntrepriseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Entreprise.CreateEntrepriseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActvity"
+            android:exported="false" />
+        <activity
+            android:name=".RecoverPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Livreur_inscription"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_inscription"
+            android:exported="false" />
+        <activity
+            android:name=".inscription_type"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

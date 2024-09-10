@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646836844954",
+    "project_id": "iflousseapp",
+    "storage_bucket": "iflousseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646836844954:android:ae7f6a0afe7bb197c72223",
+        "android_client_info": {
+          "package_name": "com.edulab.e_commerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVofgJrpV4y-FMu3jrUK3hgeHssqOOBa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

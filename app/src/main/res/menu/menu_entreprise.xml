@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dasshboard"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home_icon"
+        />
+
+    <item
+        android:id="@+id/product"
+        android:icon="@drawable/ic_commande"
+        android:title="منتجات"
+        />
+
+    <item
+        android:id="@+id/addprod"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_prod"
+        />
+
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/livreurs"
+        android:icon="@drawable/livreur"
+        android:title="موزعين"
+        />
+
+
+
+    <item
+        android:id="@+id/hmizate"
+        android:icon="@drawable/ic_hmiza"
+        android:title="هميزات"
+        />
+
+
+</menu>

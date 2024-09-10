@@ -1,0 +1,84 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable-v24/btn_click_theme.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable-v24/rounded_border_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/btn_menu_click_theme.xml" value="0.2045" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/circle.xml" value="0.2045" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/color_black_to_red_text_theme.xml" value="0.2045" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/ic_commande.xml" value="0.2045" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/ic_hmiza.xml" value="0.1395" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/ic_menu.xml" value="0.2045" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/ic_store.xml" value="0.161" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/drawable/notif_item_theme.xml" value="0.136" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_admin_inscription.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_ajouter_nouvelle_hmiza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_ajouternouveau_produit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_claim.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_create_entreprise.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_gestion_entreprise.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_home_entreprise.xml" value="0.22" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_inscription_type.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_listbuy.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_listcommandeperville.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_livreur_inscription.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_principal_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_profil_actvity.xml" value="0.5" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_recover_password.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_add_hmiza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_add_product.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_choixadd.xml" value="0.12" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_commande.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail__livreur.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_claim.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_commande.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_commande_admin.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_hmiza.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_notification.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_detail_user.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_hmiza.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_home_entreprise.xml" value="0.21" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_list_commande.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_list_hmizate.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_list_livreur.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_list_product.xml" value="0.1" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_listclaim_fragments.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_listcommande.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_listente.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_listuser.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_produit.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/fragment_store.xml" value="0.22" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/inc_main_menu.xml" value="0.27808988764044945" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/inc_menu.xml" value="0.6153846153846154" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/inc_menu_info.xml" value="0.22" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_hmiza.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_list_commande.xml" value="0.75" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_list_produit.xml" value="0.67" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_livreur.xml" value="0.6540284360189573" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_produit.xml" value="0.18" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_spinner_dropdown.xml" value="0.12143742255266418" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_status.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/item_user.xml" value="0.25" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/items.xml" value="0.67" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/items_claim.xml" value="0.16" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/layout/items_notif.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/menu/menu_admin.xml" value="0.33" />
+        <entry key="..\:/Users/AnasIDHAMMOU/Desktop/EcommerceAPP/app/src/main/res/menu/menu_entreprise.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

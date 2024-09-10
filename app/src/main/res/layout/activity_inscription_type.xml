@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#262626"
+    tools:context=".inscription_type">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_enter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:onClick="admincreation"
+                android:background="@drawable/btn_click_theme"
+                android:id="@+id/admin"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:text="@string/inscr_commer"/>
+
+            <Button
+                android:layout_weight="1"
+                android:onClick="livreurcreation"
+                android:background="@drawable/btn_click_theme"
+                android:id="@+id/livreur"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:text="@string/livreur_account"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+
+                android:onClick="Entreprisecreation"
+                android:background="@drawable/btn_click_theme"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="60dp"
+                android:text="@string/btn_inscr_entre"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
